@@ -2,6 +2,8 @@
 
 Generates a 7680^2 sized top down isometric view png of the level
 
+![Example](Generated%20results/13.png)
+
 You can press M to turn on the enlarged preview.
 
 Once the preview is toggled on, you can use use the arrow keys to move the center arround (up key moves it in the +Z direction, right key moves it in the +X direction). By default it moves the center by 1.0 meter on each key press, 0.5 if holding shift, 10.0 if holding control; hold alt to keep moving it as long as the arrow keys are held down.

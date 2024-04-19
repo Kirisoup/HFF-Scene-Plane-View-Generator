@@ -122,11 +122,11 @@ namespace scpvg
         {
             Camera planecam_ = FindObjectOfType<Plugin>().planeCam;
 
-            RenderTexture ortex = new(1920, 1920, 24, RenderTextureFormat.ARGB32);
+            RenderTexture ortex = new(7680, 7680, 24, RenderTextureFormat.ARGB32);
 
             planecam_.targetTexture = ortex;
 
-            Texture2D otex = new(1920, 1920, TextureFormat.RGB24, false);   
+            Texture2D otex = new(7680, 7680, TextureFormat.RGB24, false);   
 
             planecam_.Render();
 

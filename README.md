@@ -4,7 +4,7 @@ Generates a 7680^2 sized top down isometric view png of the level
 
 ![Example](Generated%20results/13.png)
 
-## + [View generated results](Generated%20results)
+## + [View generated results](Generated%20results/index.md)
 
 You can press M to turn on the enlarged preview.
 
